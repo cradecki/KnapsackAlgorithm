@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Generic Algorithm</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header>
+    <h1>
+      Zad 2 - Algorytm plecakowy - wyszukiwanie maksimum funkcji na
+      zadanym przedziale <0,31>
+    </h1>
+  </header>
+
+  <section>
+    <div class="wrapper">
+      <form name="dataForTask" action="" method="get">
+        <div class="dataTask">
+          <div class="chromosomes"></div>
+
+          <div class="additionalData">
+            <div class="addData">
+              <label for="Pk">Pk:</label>
+              <input type="number" id="Pk" step="0.1" placeholder="0.8" max="1" min="0" />
+            </div>
+            <div class="addData">
+              <label for="Pm">Pm:</label>
+              <input type="number" id="Pm" step="0.1" placeholder="0.2" max="1" min="0" />
+            </div>
+          </div>
+        </div>
+
+
+        <div class="dataTable">
+
+          <div class="cell text">Nr przedmiotu</div>
+          <div class="cell">1</div>
+          <div class="cell">2</div>
+          <div class="cell">3</div>
+          <div class="cell">4</div>
+          <div class="cell">5</div>
+          <div class="cell">6</div>
+          <div class="cell">7</div>
+          <div class="cell">8</div>
+          <div class="cell">9</div>
+          <div class="cell">10</div>
+
+          <div class="cell text">Waga</div>
+          <div class="cell"><input type="number" placeholder='8'></div>
+          <div class="cell"><input type="number" placeholder='6'></div>
+          <div class="cell"><input type="number" placeholder='2'></div>
+          <div class="cell"><input type="number" placeholder='3'></div>
+          <div class="cell"><input type="number" placeholder='14'></div>
+          <div class="cell"><input type="number" placeholder='5'></div>
+          <div class="cell"><input type="number" placeholder='12'></div>
+          <div class="cell"><input type="number" placeholder='3'></div>
+          <div class="cell"><input type="number" placeholder='10'></div>
+          <div class="cell"><input type="number" placeholder='11'></div>
+
+          <div class="cell text">Wartość</div>
+          <div class="cell"><input type="number" placeholder='14'></div>
+          <div class="cell"><input type="number" placeholder='2'></div>
+          <div class="cell"><input type="number" placeholder='1'></div>
+          <div class="cell"><input type="number" placeholder='10'></div>
+          <div class="cell"><input type="number" placeholder='2'></div>
+          <div class="cell"><input type="number" placeholder='8'></div>
+          <div class="cell"><input type="number" placeholder='8'></div>
+          <div class="cell"><input type="number" placeholder='7'></div>
+          <div class="cell"><input type="number" placeholder='4'></div>
+          <div class="cell"><input type="number" placeholder='3'></div>
+
+
+        </div>
+
+
+        <!-- <p>Math formula: ax<sup>3</sup> + bx<sup>2</sup> + cx + d</p> -->
+
+        <!-- <div class="mathFormula">
+          <div class="mathData">
+            <label for="a">a:</label>
+            <input type="number" id="a" placeholder="-1" />
+          </div>
+          <div class="mathData">
+            <label for="a">b:</label>
+            <input type="number" id="b" placeholder="32" />
+          </div>
+          <div class="mathData">
+            <label for="a">c:</label>
+            <input type="number" id="c" placeholder="0" />
+          </div>
+          <div class="mathData">
+            <label for="a">d:</label>
+            <input type="number" id="d" placeholder="5" />
+          </div>
+        </div> -->
+        <div class="formSubmit">
+          <input class="calculate" type="button" value="Oblicz" />
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <script type="module" src="script.js"></script>
+</body>
+
+</html>
